@@ -40,6 +40,9 @@ span.tri{
 .ie .logo{
   opacity: 1;
 }
+.no-cssanimations .logo{
+  opacity: 1;
+}
 
 		
 		@-webkit-keyframes movearound {
@@ -99,7 +102,9 @@ span.tri{
 .ie .fadein{
   opacity: 1;
 }
-
+.no-cssanimations .fadein{
+  opacity: 1;
+}
 
 h1{
   float: right;
